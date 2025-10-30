@@ -1,0 +1,9 @@
+{
+  "defaultAction": "SCMP_ACT_ALLOW",
+  "syscalls": [
+    {
+      "names": ["open", "openat", "creat", "open_by_handle_at", "name_to_handle_at", "execve", "execveat"],
+      "action": "SCMP_ACT_ERRNO"
+    }
+  ]
+}
